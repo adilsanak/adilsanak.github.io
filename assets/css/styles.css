@@ -219,7 +219,27 @@ img {
     padding: 1.125rem 2rem;
     border-radius: 0.5rem;
 }
+.buttonsubmit {
+    display: inline-block;
+    background-color: var(--first-color-dark);
+    color: var(--white-color);
+    padding: 1.35rem 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
 
+.input_text {
+    display: inline-block;
+    background-color: var(--white-color);
+    color: var(--first-color-darken);
+    padding: 1.35rem 2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: var(--normal-font-size);
+}
 .buttonarea {
     text-align: center;
 }
@@ -228,6 +248,9 @@ img {
     background-color: var(--first-color-darken);
 }
 .button:hover {
+    background-color: var(--first-color-darken);
+}
+.buttonsubmit:hover {
     background-color: var(--first-color-darken);
 }
 
