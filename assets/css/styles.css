@@ -75,7 +75,7 @@ img {
 .grid {
     max-width: 1024px;
     display: grid;
-    width: calc(100% - 2rem);
+    width: calc(100% - 4rem);
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -219,6 +219,7 @@ img {
     padding: 1.125rem 2rem;
     border-radius: 0.5rem;
 }
+
 .buttonsubmit {
     display: inline-block;
     background-color: var(--first-color-dark);
@@ -230,7 +231,7 @@ img {
     font-size: 1rem;
 }
 
-.fa {
+.love {
     font-size: 4.5rem;
 }
 .d-none {
